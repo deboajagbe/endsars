@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Cornerstone';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cornerstone'),
+    url(./fonts/Cornerstone.woff) format('woff'),
+    url(./fonts/Cornerstone.woff2) format('woff2'),
+    url(./fonts/Cornerstone.ttf) format('truetype'),
+}
+
+body {
+  margin: 0;
+  font-family: Cornerstone;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div.noMargin {
+  max-width: 90%;
+}
+
+ul.yel {
+  background-color: #f04235;
+}
+
+div.dark {
+  background-color: #ffffff;
+}
+
+h3.noMargin{
+  margin: 0;
+}
